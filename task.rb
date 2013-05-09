@@ -7,12 +7,4 @@ class Task
     @complete = false
   end
  
-  def complete?
-    @complete
-  end
- 
-  def complete!
-    @complete = true
-    return "success"
-  end
 end
