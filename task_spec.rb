@@ -38,7 +38,7 @@ describe Task do
     it "changes the task from incomplete to completed" do
       task.complete.should be_false
       task.complete!
-      task.complete.should be_true
+      task.complete.should == true
     end
   end
 end

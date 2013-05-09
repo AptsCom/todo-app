@@ -13,5 +13,6 @@ class Task
  
   def complete!
     @complete = true
+    return "success"
   end
 end

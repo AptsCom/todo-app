@@ -11,6 +11,7 @@ class List
   end
  
   def complete_task(index)
+    return false unless tasks[index]
     tasks[index].complete!
   end
  
